@@ -1,0 +1,25 @@
+nan
+Restaurants, Mexican
+Chinese, Restaurants
+Restaurants, Pizza
+Mexican, Restaurants
+Restaurants, Chinese
+Pizza, Restaurants
+Restaurants, Italian
+Italian, Restaurants
+Restaurants, Sandwiches, Fast Food
+Sandwiches, Restaurants, Fast Food
+Restaurants, Sandwiches
+Chicken Wings, Restaurants
+Restaurants, Chicken Wings
+Restaurants, Southern
+Restaurants, Barbeque
+Barbeque, Restaurants
+Restaurants, Thai
+Burgers, Restaurants
+Seafood, Restaurants
+Fast Food, Restaurants, Burgers
+Caribbean, Restaurants
+Pizza, Italian, Restaurants
+Restaurants, Fast Food, Burgers
+Restaurants, Indian
