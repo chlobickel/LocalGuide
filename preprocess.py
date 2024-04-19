@@ -127,6 +127,18 @@ def unify(types):
 data['type'] = data['type'].apply(unify)
 data = data[data['type'] != "other"]
 
+
+def determinebinarytype(tvs):
+    if tvs in food_types or tvs in specialized_food_types:
+        return 'food'
+    elif tvs in lifestyle_types or tvs in specialized_lifestyle_types:
+        return 'activity' # if you want, change to 1/0!
+    else:
+        return 'other'
+
+data['food_or_activity'] = data['type'].apply(determinebinarytype)
+
+
 data.to_csv("clean_data.csv")
 
 #clustering test: 
